@@ -1,0 +1,39 @@
+.container{
+    min-height: 84vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    margin: 13px 0px;
+}
+.mForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.TInput{
+    outline: none;
+    border: 2px solid black;
+    font-size: 14px;
+    width: 45%;
+    padding: 12px;
+    margin: 8px 0px;
+    border-radius: 5px;
+}
+.btn{
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px solid black;
+    margin: 16px;
+    padding: 13px 16px;
+    border-radius: 12px;
+    background-color: #7070708c;
+}
+.btn:hover{
+    background-color: white;
+}

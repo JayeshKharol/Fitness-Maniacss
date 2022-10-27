@@ -1,0 +1,36 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content 
+    
+    section#sectionIntro 
+      div FITNESS MANIACS 
+      div.small Go Hard or Go Home 
+
+    section#Missionsection 
+      h2 Our Services
+      div.card
+        h3 Power Yoga
+        img(src='/static/p1.jpg' alt='login' style=' width:100%; height:250px;')
+      div.card
+        h3 Zumba Fitness
+        img(src='/static/z.jpg' alt='login' style=' width:100%; height:250px;')
+      div.card
+        h3 Kickboxing
+        img(src='/static/kb.jfif' alt='login' style=' width:100%; height:250px;')
+
+
+    section#sponsersection 
+      h2 Our Sponsors
+      div#sponsers
+        img(src='/static/applelogo.png' class="sponImg")
+        img(src='/static/s.png' class="sponImg")
+        img(src='/static/fp.png' class="sponImg")
+        img(src='/static/m.png' class="sponImg")
+

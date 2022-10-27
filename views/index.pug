@@ -1,0 +1,48 @@
+doctype html
+html
+  head
+    title Jayesh Fitness Maniacs
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+      ul 
+        div#logo
+          img(src='/static/l1.jpg')
+        li #[a(href="/") Home]
+        li #[a(href="/") About Us] 
+        li #[a(href="/") Services] 
+        li #[a(href="/") Trainers] 
+        li #[a(href="/") Contact Us]
+
+    section#sectionIntro 
+      div FITNESS MANIACS 
+      div.small Go Hard or Go Home 
+
+    section#Missionsection 
+      h2 Our Services
+      div.card
+        h3 Power Yoga
+        img(src='/static/p1.jpg' alt='login' style=' width:100%; height:250px;')
+      div.card
+        h3 Zumba Fitness
+        img(src='/static/z.jpg' alt='login' style=' width:100%; height:250px;')
+      div.card
+        h3 Kickboxing
+        img(src='/static/kb.jfif' alt='login' style=' width:100%; height:250px;')
+
+
+    section#sponsersection 
+      h2 Our Sponsors
+      div#sponsers
+        img(src='/static/applelogo.png' class="sponImg")
+        img(src='/static/s.png' class="sponImg")
+        img(src='/static/fp.png' class="sponImg")
+        img(src='/static/m.png' class="sponImg")
+
+
+    
+    footer#footer 
+      |Copyright @2022 Jayesh Fitness Manics | All rights reserved.
+    script
+      include ../static/index.js

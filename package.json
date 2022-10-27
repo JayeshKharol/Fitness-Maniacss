@@ -1,0 +1,16 @@
+{
+  "name": "dancemaniac",
+  "version": "1.0.0",
+  "description": "Academy for dance maniacs!!!!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jayesh Kharol",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20",
+    "pug": "^3.0.2"
+  }
+}
